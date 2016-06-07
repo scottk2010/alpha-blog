@@ -3,10 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-
 # Bundle in secure password protection
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
-
+## Gemfile for Rails 3+, Sinatra, and Merb
+gem 'will_paginate', '~> 3.1.0'
+# ## Gemfile for Rails 3+, Sinatra, and Merb
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Bootstrap 3 sass for front-end
